@@ -1,1 +1,1 @@
-This directory contains Shell basics project
+(0)create a script that prints the absolute path name of the current working directory.
