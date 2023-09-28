@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# prints Best School 10 times
 names='Best School'
 for name in {1..10}
 do
