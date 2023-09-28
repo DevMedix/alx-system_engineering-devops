@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+names='Best School'
+for name in {1..10}
+do
+	echo "${names}"
+done
