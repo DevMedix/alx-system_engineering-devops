@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displays the content of the current directoryin list format
+for file in *
+do
+	if [[ ! "$file" == .* ]]
+	then
+		new_file="${file#*-}"
+		echo "$new_file"
+	fi
+done
