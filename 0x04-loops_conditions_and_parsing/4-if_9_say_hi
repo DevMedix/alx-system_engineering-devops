@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# prints Best School as long as condition is true
+counter=1
+while [[ counter -le 10 ]]
+do
+	if [[ counter -eq 9 ]]
+	then
+		echo -e "Best School\nHi"
+	fi
+	echo "Best School"
+	((counter++))
+done
